@@ -1,0 +1,96 @@
+body {
+  background-color: #f0f8ff; /* Light blue background */
+  color: #333; /* Dark text color */
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 50px;
+  margin-right: 20px;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #4caf50; /* Green background */
+  color: white; /* White text */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.navbar {
+  background-color: #007bff; /* Blue navigation menu */
+}
+
+.nav-link {
+  color: white !important; /* White links */
+}
+
+.nav-link:hover {
+  color: #ffcc00 !important; /* Yellow on hover */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #4caf50; /* Green headings */
+}
+
+.table {
+  background-color: #ffffff; /* White table background */
+  border: 1px solid #ddd; /* Light border */
+}
+
+.table th {
+  background-color: #007bff; /* Blue table header */
+  color: white; /* White text */
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f2f2f2; /* Light gray for striped rows */
+}
+
+.btn {
+  background-color: #4caf50; /* Green buttons */
+  color: white; /* White text */
+  border: none;
+}
+
+.btn:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #282c34;
+  color: white;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Add favicon */
+link[rel="icon"] {
+  content: url('/favicon.ico');
+}
